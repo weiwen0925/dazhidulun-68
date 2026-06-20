@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# 不開放 AI 訓練抓取
+User-agent: GPTBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+
+Sitemap: https://weiwen0925.github.io/dazhidulun-68/sitemap.xml
